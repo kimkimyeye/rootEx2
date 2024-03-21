@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>kim's kitchen</title>
+  <style>
+    body {
+      
+      background-image: url(./images/Ex.png);
+      background-repeat: repeat;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+    }
+    .wrapper {
+      width: 780px; height: 690px;
+      border: solid 5px #f1abac;
+    }
+    .box {
+      display: flex;
+    }
+    header {
+      width: 780px; height: 110px;
+      background-color: #7d1e6a;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    h1 img {
+      height: 74px;
+    }
+    header h2 {
+      color: #fff;
+    }
+    nav {
+      width: 780px; height: 40px;
+      background-color: #ffcd38;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: flex;
+
+    }
+    nav li {
+      padding-left: 30px;
+      padding-right: 30px;
+  
+    }
+    nav li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: inherit;
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      color: #7d1e6a;
+    }
+
+    article {
+      background-color: #f1eee9;
+      width: 540px;
+      height: 504px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    aside {
+      background-color: #fff;
+      width: 240px;
+      height: 504px;
+      border-left: solid 1px red;
+      box-sizing: border-box;
+    }
+
+    footer {
+      width: 780px;
+      background-color: #7d1e6a;
+      color: #fff;
+    }
+    footer p {
+      margin: 0;
+      font-size: 14px;
+      height: 36px;
+      line-height: 36px;
+    }
+    aside h3 {
+      color: red;
+      font-size: 20px;
+      padding-left: 10px;
+    }
+    aside ul {
+      list-style: none;
+      margin: 0; padding: 0;
+     
+    }
+    aside li {
+      border-bottom: solid 1px red;
+    }
+
+    aside li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: inherit;
+      display: block;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 10px;
+    }
+
+    aside p {
+      font-weight: bold;
+      padding-left: 10px;
+    }
+
+    .contexts {
+      width: 250px;
+      margin: 5px;
+    }
+    
+    .imgbox {
+      background-color: #fff;  
+      border: solid 1px red;
+    }
+
+    .imgbox img {
+      display: block;
+      margin: 5px auto;
+    }
+
+    .imgbox p  {
+      text-align: right;
+      margin: 0;
+      color: #777777;
+    }
+
+    .contexts h3 {
+      font-size: 20px;
+    }
+
+    .contexts h4 {
+      color: red;
+    }
+    
+    .contexts p {
+      font-size: 14px;
+    }
+
+    
+    
+
+  
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+  <header>
+    <h1><img src="./images/Leica-Logo.png" alt="logo"></h1>
+    <h2>kim's kitchen cooking class</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">홈</a></li>
+      <li><a href="#">소개</a></li>
+      <li><a href="#">교실</a></li>
+      <li><a href="#">케이터링</a></li>
+      <li><a href="#">연락처</a></li>
+    </ul>
+  </nav>
+  <div class="box">
+  <article>
+    <div class="contexts">
+      <div class="imgbox">
+      <!-- <img src="" alt="채식사진"> -->
+      <img src="https://placehold.co/240x160/8ba53b/fff?text=img1&font=oswald" alt="img1">
+       <p>Oriental Salad</p>
+      </div>
+    </div>
+    <div class="contexts">
+      <h3>채식주의자</h3>
+      <h4>런던에서의 5주 코스</h4>
+      <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
+    </div>
+    <div class="contexts">
+        <div class="imgbox">
+        <!-- <img src="" alt="소스사진"> -->
+        <img src="https://placehold.co/240x160/583e30/fff?text=img2&font=oswald" alt="img2">
+        <p>Teriyaki</p>
+        </div>
+      </div>
+      <div class="contexts">
+      <h3>소스 마스터 클래스</h3>
+      <h4>1일 워크샵</h4>
+      <p>1일 집중 코스에서는 다양한 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다.</p>
+    </div>
+  </article>
+  <aside>
+    <h3>인기요리법</h3>
+    <ul>
+      <li><a href="#">후라이드</a></li>
+      <li><a href="#">고추바사삭</a></li>
+      <li><a href="#">양념치킨</a></li>
+      <li><a href="#">뿌링클</a></li>
+    </ul>
+      <h3>연락처</h3>
+      <p>경기 수원시 팔달구 매산동</p>
+  </aside>
+</div>
+  <footer>
+    <p>@kim's kitchen 김씨네 키친</p>
+  </footer>
+</div>
+  
+</body>
+</html>
